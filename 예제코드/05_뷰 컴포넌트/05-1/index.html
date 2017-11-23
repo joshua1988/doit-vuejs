@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Vue Component Registration</title>
+  </head>
+  <body>
+
+    <div id="app">
+      <button>컴포넌트 등록</button>
+      <my-local-component></my-local-component>
+    </div>
+
+      <!-- 등록한 my-component가 최종적으로 변환된 모습 -->
+      <!-- <div>컴포넌트가 등록되었습니다!</div>
+    </div> -->
+
+    <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+    <script>
+
+      // new Vue({
+      //   ...
+      //   components: {
+      //     '컴포넌트': cmp
+      //   }
+      // })
+
+      var cmp = {
+        // 컴포넌트 내용
+        template: '<div>지역 컴포넌트가 등록되었습니다!</div>'
+      };
+
+      // new Vue({
+      //   ...
+      //   components: {
+      //     'my-local-component': cmp
+      //   }
+      // })
+
+      Vue.component('my-component', {
+        template: '<div>전역 컴포넌트가 등록되었습니다!</div>'
+      });
+
+      // Vue.component('컴포넌트 이름', {
+      //   // 컴포넌트 내용
+      // });
+
+      new Vue({
+        el: '#app',
+        components: {
+          'my-local-component': cmp
+        }
+      })
+    </script>
+  </body>
+</html>

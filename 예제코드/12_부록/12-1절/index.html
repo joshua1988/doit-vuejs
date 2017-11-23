@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Vue Sample</title>
+  </head>
+  <body>
+    <div id="app">
+      {{ message }}
+      <list-component></list-component>
+    </div>
+
+  <body>
+    <div id="app">
+      Hello Vue.js!
+      <ul>
+        <li>item1</li>
+        <li>item2</li>
+      </ul>
+    </div>
+  </body>
+
+    <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+    <script>
+      var list-component = {
+        template: '<ul><li>item1</li><li>item2</li></ul>'
+      };
+
+      new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello Vue.js!'
+        },
+        components: {
+          'list-component': list-component
+        }
+      })
+    </script>
+  </body>
+</html>

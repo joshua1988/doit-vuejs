@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Event Sample</title>
+  </head>
+  <body>
+    <div id="app">
+      <child-component v-on:show-log="printText" v-bind:passed-data="message"></child-component>
+    </div>
+
+    <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+    <script>
+
+      Vue.component('child-component', {
+        props: ['상위 컴포넌트의 데이터 속성']
+      });
+
+      Vue.component('child-component', {
+        props: ['passedData'],
+        template: '<p>{{ passedData }}<button v-on:click="showLog">show</button></p>',
+        methods: {
+          showLog: function() {
+            console.log('showLog clicked');
+            this.$emit('show-log', "10");
+          }
+        }
+      });
+
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello Vue! passed from Parent Component'
+        },
+        methods: {
+          printText: function(data) {
+            // console.log("received an event");
+            this.message = "changed";
+            console.log(data);
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

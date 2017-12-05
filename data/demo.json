@@ -1,11 +1,9 @@
 {
-	"framework" : {
-		"front-end": "Angular",
-		"front-end": "React",
-		"front-end": "Vue.js",
-		"front-end": "Backbone.js",
-		"back-end": "Spring",
-		"back-end": "Django",
-		"back-end": "Node.js"
-	}
+	"fe1": "Angular",
+	"fe2": "React",
+	"fe3": "Vue.js",
+	"fe4": "Backbone.js",
+	"be1": "Spring",
+	"be2": "Django",
+	"be3": "Node.js"
 }

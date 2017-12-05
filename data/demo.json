@@ -1,3 +1,11 @@
 {
-	"data": "test"
+	"framework" : {
+		"front-end": "Angular",
+		"front-end": "React",
+		"front-end": "Vue.js",
+		"front-end": "Backbone.js",
+		"back-end": "Spring",
+		"back-end": "Django",
+		"back-end": "Node.js"
+	}
 }

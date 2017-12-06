@@ -4,12 +4,8 @@
     <span class="addContainer" v-on:click="addTodo"><i class="addBtn fa fa-plus" aria-hidden="true"></i></span>
 
     <modal v-if="showModal" @close="showModal = false">
-      <!--
-        you can use custom content here to overwrite
-        default content
-      -->
-      <h3 slot="header">Warning</h3>
-      <span slot="footer" @click="showModal = false">Don't enter the empty item
+      <h3 slot="header">경고</h3>
+      <span slot="footer" @click="showModal = false">할 일을 입력하세요.
         <i class="closeModalBtn fa fa-times" aria-hidden="true"></i>
       </span>
     </modal>
@@ -35,7 +31,7 @@ export default {
         this.passedData.push(value);
         this.newTodoItem = '';
       } else {
-        this.showModal = true;
+        this.showModal = !this.showModal;
       }
     }
   },

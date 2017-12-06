@@ -1,3 +1,4 @@
+
 <template lang="html">
   <transition name="modal">
     <div class="modal-mask" @keyup.esc="$emit('close')">

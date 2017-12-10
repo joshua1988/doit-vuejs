@@ -2,12 +2,13 @@
   <head>
     <title>Vue Sample</title>
   </head>
+
   <body>
     <div id="app">
       {{ message }}
     </div>
 
-    <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
     <script>
       new Vue({
         el: '#app',
@@ -22,12 +23,13 @@
         },
         mounted: function() {
           console.log("mounted");
-          this.message = "1";
+          this.message = 'Hello Vue!';
         },
         updated: function() {
           console.log("updated");
         }
-      })
+      });
     </script>
   </body>
+
 </html>

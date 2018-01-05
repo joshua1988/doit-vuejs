@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Vue Component Registration</title>
+  </head>
+  <body>
+    <div id="app">
+      <button>컴포넌트 등록</button>
+      <my-local-component></my-local-component>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+      var cmp = {
+        // 컴포넌트 내용
+        template: '<div>지역 컴포넌트가 등록되었습니다!</div>'
+      };
+
+      new Vue({
+        el: '#app',
+        components: {
+          'my-local-component': cmp
+        }
+      });
+    </script>
+  </body>
+</html>

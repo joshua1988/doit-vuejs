@@ -4,7 +4,7 @@
 이 리포지토리는 Do it! Vue.js 입문 도서의 예제, 직접 해보세요, 종합 프로젝트 코드가 포함되어 있습니다.<br>
 책에 안내된 번호에 따라 코드를 활용해보세요 :)
 
-## 목차 - Table of Contents
+## 목차
 - [예제](https://github.com/joshua1988/doit-vuejs/tree/master/exam)
 - [직접해보세요](https://github.com/joshua1988/doit-vuejs/tree/master/quiz)
 - [종합 프로젝트](https://github.com/joshua1988/doit-vuejs/tree/master/final/vue-todo)

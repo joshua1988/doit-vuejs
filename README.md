@@ -1,5 +1,6 @@
 # Do it! Beginning Vue.js
-This repository contains all the code samples, quizzes and projects for Do it! Beginning Vue.js book.
+> This repository contains all the code samples, quizzes and projects for Do it! Beginning Vue.js book.
+
 이 리포지토리는 Do it! Vue.js 입문의 예제, 직접해보세요, 종합 프로젝트 코드가 포함되어 있습니다.
 각 코드에 안내된 번호에 따라 소스를 활용해보세요 :)
 

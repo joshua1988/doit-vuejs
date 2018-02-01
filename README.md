@@ -1,8 +1,8 @@
 # Do it! Beginning Vue.js
 > This repository contains all the code samples, quizzes and projects for Do it! Beginning Vue.js book.
 
-이 리포지토리는 Do it! Vue.js 입문의 예제, 직접해보세요, 종합 프로젝트 코드가 포함되어 있습니다.
-각 코드에 안내된 번호에 따라 소스를 활용해보세요 :)
+이 리포지토리는 Do it! Vue.js 입문 도서의 예제, 직접 해보세요, 종합 프로젝트 코드가 포함되어 있습니다.<br>
+책에 안내된 번호에 따라 코드를 활용해보세요 :)
 
 ## 목차 - Table of Contents
 - [예제](https://github.com/joshua1988/doit-vuejs/tree/master/exam)
@@ -43,7 +43,7 @@
 8. [5-8 computed 속성과 methods 속성의 차이점](https://github.com/joshua1988/doit-vuejs/blob/master/exam/05/05-8/index.html)
 9. [5-9 watch 속성 예제](https://github.com/joshua1988/doit-vuejs/blob/master/exam/05/05-9/index.html)
 
-## 직접해보세요
+## 직접 해보세요
 - [3-2 지역, 전역 컴포넌트 등록하기](https://github.com/joshua1988/doit-vuejs/tree/master/quiz/03-2)
 - [3-3 props를 이용하여 컴포넌트 통신하기](https://github.com/joshua1988/doit-vuejs/tree/master/quiz/03-3)
 - [4-1 네임드 뷰 라우터를 이용하여 페이지 이동하기](https://github.com/joshua1988/doit-vuejs/tree/master/quiz/04-1)

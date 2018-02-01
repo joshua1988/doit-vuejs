@@ -5,9 +5,9 @@
 책에 안내된 번호에 따라 코드를 활용해보세요 :)
 
 ## 목차
-- [예제](https://github.com/joshua1988/doit-vuejs/tree/master/exam)
-- [직접해보세요](https://github.com/joshua1988/doit-vuejs/tree/master/quiz)
-- [종합 프로젝트](https://github.com/joshua1988/doit-vuejs/tree/master/final/vue-todo)
+- [예제](#예제)
+- [직접 해보세요](#직접 해보세요)
+- [종합 프로젝트](#종합 프로젝트)
 
 ## 예제
 #### 2장

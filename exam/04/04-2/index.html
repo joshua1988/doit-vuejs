@@ -21,20 +21,21 @@
           </div>
         `
       };
-      var UserInfo = { template: '<p>User Info Component</p>' };
+      var UserProfile = { template: '<p>User Profile Component</p>' };
       var UserPost = { template: '<p>User Post Component</p>' };
 
       var routes = [
         {
-          path: '/user', component: User,
+          path: '/user',
+          component: User,
           children: [
             {
-              path: '',
-              component: UserInfo
+              path: 'posts',
+              component: UserPost
             },
             {
-              path: 'post',
-              component: UserPost
+              path: 'profile',
+              component: UserInfo
             },
           ]
         }

@@ -1,4 +1,3 @@
-
 <template>
   <div class="clearAllContainer">
     <span class="clearAllBtn" @click="clearTodo">Clear All</span>
@@ -26,7 +25,6 @@ export default {
   }
   .clearAllBtn {
     color: #e20303;
-		/* 추가 */
-		display: block;
+    display: block;
   }
 </style>

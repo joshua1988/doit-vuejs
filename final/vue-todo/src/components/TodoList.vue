@@ -2,10 +2,10 @@
   <section>
     <transition-group name="list" tag="ul">
       <li v-for="(todoItem, index) in propsdata" :key="todoItem" class="shadow">
-        <i class="checkBtn fa fa-check" aria-hidden="true"></i>
+        <i class="checkBtn fas fa-check" aria-hidden="true"></i>
         {{ todoItem }}
         <span class="removeBtn" type="button" @click="removeTodo(todoItem, index)">
-          <i class="fa fa-trash-o" aria-hidden="true"></i>
+          <i class="far fa-trash-alt" aria-hidden="true"></i>
         </span>
       </li>
     </transition-group>
@@ -50,14 +50,6 @@ export default {
     color: #de4343;
   }
 
-
-  .list-item {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  .list-move {
-    transition: transform 1s;
-  }
   .list-enter-active, .list-leave-active {
     transition: all 1s;
   }

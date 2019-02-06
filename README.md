@@ -55,19 +55,10 @@
 
 ## 입문 책을 보고나서 보면 좋은 온라인 강좌
 
-<!-- 1. Vue.js 중급 강좌
-![Vue.js 중급 강좌](https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/vue-inter3.jpg)
+1. [Vue.js 중급 강좌](https://www.inflearn.com/course/vue-pwa-vue-js-%EC%A4%91%EA%B8%89/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner)
+2. [Vue.js 완벽 가이드](https://www.inflearn.com/course/vue-js/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner)
 
-2. Vue.js 완벽 가이드
-![Vue.js 완벽 가이드](https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/jgh_vue.js0_.jpg) -->
-
-<a href="https://www.inflearn.com/course/vue-pwa-vue-js-%EC%A4%91%EA%B8%89/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner"><img src="https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/vue-inter3.jpg" style="width: 262px; height:172px;"
-     alt="Vue.js 중급 강좌">중급 강좌</a>
-<br>
-
-<a href="https://www.inflearn.com/course/vue-js/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner"><img src="https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/jgh_vue.js0_.jpg"   style="width: 262px; height:172px;"
-     alt="Vue.js 완벽 가이드">완벽 가이드</a>
-<br>
+> 추천 학습 로드맵 : Do it! Vue.js 입문 -> Vue.js 중급 -> Vue.js 완벽 가이드
 
 ## 진행 예정인 오프라인 강좌
 

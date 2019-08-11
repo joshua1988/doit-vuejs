@@ -55,21 +55,24 @@
 
 ## 입문 책을 보고나서 보면 좋은 온라인 강좌
 
-1. [Vue.js 중급 강좌](https://www.inflearn.com/course/vue-pwa-vue-js-%EC%A4%91%EA%B8%89/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner)
-2. [Vue.js 완벽 가이드](https://www.inflearn.com/course/vue-js/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner)
+1. [Vue.js 시작하기](https://www.inflearn.com/course/Age-of-Vuejs)
+2. [Vue.js 중급 강좌](https://www.inflearn.com/course/vue-pwa-vue-js-%EC%A4%91%EA%B8%89/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner)
+3. [Vue.js 완벽 가이드](https://www.inflearn.com/course/vue-js/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner)
 
-> 추천 학습 로드맵 : Do it! Vue.js 입문 -> Vue.js 중급 -> Vue.js 완벽 가이드
+> 추천 학습 로드맵 : Do it! Vue.js 입문 -> Vue.js 시작하기 -> Vue.js 중급 -> Vue.js 완벽 가이드
 
 ## 진행 예정인 오프라인 강좌
 
-- [Vue.js 정복 캠프](https://www.fastcampus.co.kr/dev_camp_vue/)
-  - 기간 : 19.03.04(월) ~ 19.04.10(수) 6주
-  - 일정 : 매주 월/수 20시 ~ 23시
+- [Vue로 구현하는 PWA 캠프](https://www.fastcampus.co.kr/dev_camp_wap/)
+
+  - 기간 : 19.08.24(토) ~ 19.11.02(토) 8주
+  - 일정 : 매주 토요일 14시 00분 ~ 19시 00분
   - 장소 : 패스트 캠퍼스 (강남역 4번 출구 앞)
 
-- [Vue로 구현하는 PWA 캠프](https://www.fastcampus.co.kr/dev_camp_wap/)
-  - 기간 : 19.04.27(토) ~ 19.06.22(토) 8주
-  - 일정 : 매주 토요일 13시 30분 ~ 18시 30분
+- [Vue.js 정복 캠프](https://www.fastcampus.co.kr/dev_camp_vue/)
+
+  - 기간 : 19.10.14(월) ~ 19.11.20(수) 6주
+  - 일정 : 매주 월/수 20시 ~ 23시
   - 장소 : 패스트 캠퍼스 (강남역 4번 출구 앞)
 
 ## License & Copyright

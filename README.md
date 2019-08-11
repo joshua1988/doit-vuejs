@@ -55,7 +55,7 @@
 
 ## 입문 책을 보고나서 보면 좋은 온라인 강좌
 
-1. [Vue.js 시작하기](https://www.inflearn.com/course/Age-of-Vuejs)
+1. [Vue.js 시작하기](https://www.inflearn.com/course/Age-of-Vuejs/)
 2. [Vue.js 중급 강좌](https://www.inflearn.com/course/vue-pwa-vue-js-%EC%A4%91%EA%B8%89/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner)
 3. [Vue.js 완벽 가이드](https://www.inflearn.com/course/vue-js/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner)
 

@@ -66,7 +66,7 @@
 - [Vue로 구현하는 PWA 캠프](https://www.fastcampus.co.kr/dev_camp_wap/)
 
   - 기간 : 19.08.24(토) ~ 19.11.02(토) 8주
-  - 일정 : 매주 토요일 14시 00분 ~ 19시 00분
+  - 일정 : 매주 토요일 14시 ~ 19시
   - 장소 : 패스트 캠퍼스 (강남역 4번 출구 앞)
 
 - [Vue.js 정복 캠프](https://www.fastcampus.co.kr/dev_camp_vue/)
